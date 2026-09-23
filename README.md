@@ -93,22 +93,34 @@ src/churn_pipeline.pkl
 
 ## How to Run 
 
-1. Clone the repository : 
+### 1. Clone the repository : 
+```bash
 git clone <your-repository-url>
+```
 
-2. Create and activate a virtual environment :
+### 2. Create and activate a virtual environment :
+```bash
 python -m venv venv
+```
+
 Windows: 
+```bash
 venv\Scripts\activate
+```
 
-3. Install dependencies : 
+### 3. Install dependencies : 
+```bash
 pip install -r requirements.txt
+```
 
-4. Run the Streamlit application :
+### 4. Run the Streamlit application :
+```bash
 streamlit run app.py
+```
 The application will open in your browser.
 
 ## Project Structure 
+```text
 Customer-Churn-Prediction/
 │
 ├── data/
@@ -125,6 +137,7 @@ Customer-Churn-Prediction/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## Disclaimer 
 The churn probability shown by the application is a model-generated estimate based on patterns learned from the training dataset. It should not be interpreted as a certainty about an individual customer.
