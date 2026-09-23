@@ -38,7 +38,7 @@ Model Training
 Model Evaluation
    ↓
 Streamlit Prediction App
-
+```
 
 
 ## Models Used  
